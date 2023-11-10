@@ -1,0 +1,8 @@
+all: compile run
+
+compile:
+	c++ Main.cpp -o Build/out.exe 
+
+
+run:
+	./Build/out.exe
